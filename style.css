@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Ubuntu', sans-serif;
+}
+header{
+    background-color: orange;
+    align-items: center;
+    position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+
+
+ }
+ .nav ul li{
+    align-items: center;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  background-color: black;
+height: 18px;
+  border-radius: 5px;
+
+ }
+  .logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    
+    
+  }
+ 
+  footer{
+    background-color: orange;
+   position: fixed;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  li :hover{
+    color: aqua;
+  }
+  body{
+    /* background-image: url(01.png); */
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  video{ 
+    width:250px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+   margin-top:5px;
+    display: table;
+  }
+  .videos{
+    margin-top:1px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  
+
+  }
+#c{
+  background-color: orange;
+}
+span{
+  color: red;
+  font-weight: bold;
+  position: relative;
+  
+}
+p{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
