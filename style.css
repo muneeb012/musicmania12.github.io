@@ -4,7 +4,7 @@
     font-family:'Ubuntu', sans-serif;
 }
 header{
-    background-color: skyblue;
+    background-color: orange;
     align-items: center;
     position: fixed;
   top: 0;
@@ -63,12 +63,13 @@ height: 18px;
 
   video{ 
     width:250px;
-    height:400px
+    height: 500px;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-   margin-top:5px;
+   margin-top:30px;
     display: table;
+    background-color: black;
   }
   .videos{
     margin-top:1px;
@@ -79,9 +80,8 @@ height: 18px;
   
 
   }
-#c{
-  background-color: orange;
-}
+
+
 span{
   color: red;
   font-weight: bold;
